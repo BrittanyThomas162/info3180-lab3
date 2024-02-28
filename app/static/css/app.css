@@ -1,3 +1,45 @@
 body {
     padding-top: 5rem;
 }
+
+.form-group{
+    margin-bottom: 20px;
+    width: 500px;
+}
+.form-label{
+    font-weight: bold;
+}
+
+.btn {
+    background-color:#3e8de3;
+    border: None;
+    border-radius:5px;
+    color: white;
+    padding:8px 25px 8px 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.flashes {
+list-style: none;
+padding: 0;
+}
+
+.flash {
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+width: 500px;
+}
+
+.flash.danger, .flash.error {
+background-color: #f8d7da;
+color: #721c24;
+}
+
+.flash.success {
+background-color: #d4edda;
+color: #155724;
+}
+
+
